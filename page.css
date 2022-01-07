@@ -57,3 +57,67 @@ h1
     background: #ffc107;
     color:#000;
 }
+
+/* Media Queries:*/
+@media screen(max-width: 320px)
+{
+    body 
+    {
+        font-size:0.1rem;
+    } 
+    .login
+    {
+        align-content: center;
+        width:100%;
+    }
+    .login input[type="text"],input[type="password"]
+    {  
+        font-size: 0.5rem;
+        height: 0.5rem;
+        
+    }
+    .login input[type="button"]
+    {
+        height: 0.75rem;
+    }
+} 
+@media screen(max-width: 768px)
+{
+    body 
+    {
+        font-size:0.5rem;
+    } 
+    .login
+    {
+        width:100%;
+    }
+    .login input[type="text"],input[type="password"]
+    {
+        font-size: 0.35rem;
+        height: 1rem;
+    }
+    .login input[type="button"]
+    {
+        height: 1.5rem;
+    }
+} 
+@media screen(max-width: 1200px) 
+{
+    body 
+    {
+        font-size:1rem;
+    } 
+    .login
+    {
+        width:25%;
+    }
+    .login input[type="text"],input[type="password"]
+    {
+        font-size: 0.75rem;
+        height: 1rem;
+    }
+    .login input[type="button"]
+    {
+        height: 1.5rem;
+    }
+} 
